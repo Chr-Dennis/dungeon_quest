@@ -16,8 +16,15 @@ def main():
             {'name': 'Ailene', 'health': 10, 'inventory': []}
         """
         # TODO: Ask the user for their name using input()
+        player_name = input("What is your name, adventurer?")
         # TODO: Initialize a dictionary with keys: "name", "health", and "inventory"
+        player_details = {
+            "name" (str): player_name,
+            "health" (int): 10,
+            "inventory" (list): []
+        }
         # TODO: Return the dictionary
+        return player_details
 
 
     def create_treasures():
